@@ -1,0 +1,51 @@
+# FastBI Data Platform - Docker ignore
+# Exclude files not needed in the container
+
+# Version control
+.git
+.gitignore
+
+# Virtual environments
+venv/
+env/
+*.venv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# LocalStack data (if mounted)
+localstack/
+
+# Test coverage
+htmlcov/
+.coverage
+coverage.xml
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Documentation (optional - keep if you want in container)
+# README.md
+# docs/
